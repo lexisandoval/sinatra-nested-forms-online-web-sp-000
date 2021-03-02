@@ -18,9 +18,9 @@ module FormsLab
       @weight = params[:pirate][:weight]
       @height = params[:pirate][:height]
       
-      @ship_name = params[:pirate][:ships][0][:name]
-      @type = params[:pirate][:ships][0][:type]
-      @booty = params[:pirate][:ships][0][:booty]
+      @ship_name1 = params[:pirate][:ships][0][:name]
+      @type1 = params[:pirate][:ships][0][:type]
+      @booty1 = params[:pirate][:ships][0][:booty]
       
       @ship_name2 = params[:pirate][:ships][1][:name]
       @type2 = params[:pirate][:ships][1][:type]
